@@ -3,3 +3,35 @@ main {
   vertical-align: center;
   line-height: 100vh
 }
+
+
+.conatiner{
+  justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons{
+      padding: 2px;
+    margin: 14px;
+    border-radius: 7px;
+}
+
+.inc{
+  margin-right: 22px;
+    border-radius: 5px;
+    background-color: #adf5ad;
+    color: black;
+}
+
+.dec{
+  margin-right: 22px;
+    border-radius: 5px;
+    background-color:#f5adad;
+    color: black;
+}
+.head{
+  margin-top: 60px;
+}
+}
