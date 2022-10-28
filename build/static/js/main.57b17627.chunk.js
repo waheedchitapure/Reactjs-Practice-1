@@ -1,0 +1,2 @@
+(this["webpackJsonpadd-two-numbers"]=this["webpackJsonpadd-two-numbers"]||[]).push([[0],{12:function(t,e,n){},14:function(t,e,n){"use strict";n.r(e);var r=n(1),c=n(3),o=(n(12),n(0)),s=App=function(){return Object(o.jsx)(o.Fragment,{children:"This is the Part one"})},i=document.getElementById("root");Object(c.createRoot)(i).render(Object(o.jsx)(r.StrictMode,{children:Object(o.jsx)(s,{})}))}},[[14,1,2]]]);
+//# sourceMappingURL=main.57b17627.chunk.js.map
