@@ -1,42 +1,28 @@
 import React from "react";
-import './App.css';
-import { useState } from "react";
-
-function App() {
-
-  const [counter, setCounter] = useState(0)
-
-  const handleClick1 = () => {
-    setCounter(counter + 1)
-  }
+import "./App.css";
 
 
-  const handleClick2 = () => {
-    setCounter(counter - 1)
-  }
-
+export const App = () => {
   return (
     <>
-      <div className="conatiner">
+      <div className="main">
 
-        <h3 className="head">
-          {counter}
-        </h3>
+        <div className="conatiner">
+
+          <h1>
+            This is the Counter Example
+          </h1>
+
+          <div className="buttons">
+            <button className="inc"></button>
+            <button className="dec"></button>
+
+          </div>
 
 
-        <div className="buttons">
-          <button className="inc" onClick={handleClick1} >
-            Increment
-          </button>
-          <button className="dec" onClick={handleClick2}>
-            Decrement
-          </button>
+
         </div>
-
       </div>
-
     </>
-  );
+  )
 }
-
-export default App;
