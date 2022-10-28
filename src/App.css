@@ -23,6 +23,7 @@ main {
     border-radius: 5px;
     background-color: #adf5ad;
     color: black;
+      border: 1px solid #20bb20;
 }
 
 .dec{
@@ -30,6 +31,7 @@ main {
     border-radius: 5px;
     background-color:#f5adad;
     color: black;
+      border: 1px solid #dd0909;
 }
 .head{
   margin-top: 60px;
