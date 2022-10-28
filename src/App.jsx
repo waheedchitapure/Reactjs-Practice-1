@@ -11,6 +11,7 @@ export const App = () => {
 
           <h1>
             This is the Counter Example
+
           </h1>
 
           <div className="buttons">
